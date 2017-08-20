@@ -23,13 +23,13 @@ function newDeck() {
           cards.push([j,j,suits[i]]);
           break;
         case 11:
-          cards.push([j,'Jack',suits[i]]);
+          cards.push([10,'Jack',suits[i]]);
           break;
         case 12:
-          cards.push([j,'Queen',suits[i]]);
+          cards.push([10,'Queen',suits[i]]);
           break;
         case 13:
-          cards.push([j,'King',suits[i]]);
+          cards.push([10,'King',suits[i]]);
           break;
         }
     }
